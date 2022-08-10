@@ -1,0 +1,1 @@
+<view class="other-index"><block ks:for="{{a}}" ks:for-item="item" ks:key="d"><navigator class="item_box" url="{{item.c}}"><view class="item"><view class="item-right"><image mode="widthFix" src="{{item.a}}"></image></view><view class="item-left"><text>{{item.b}}</text></view></view></navigator></block></view>

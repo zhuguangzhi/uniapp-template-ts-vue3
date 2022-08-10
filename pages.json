@@ -1,0 +1,104 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "青点阅读"
+			}
+		}
+	    ,{
+            "path" : "pages/user/user",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/recharge/recharge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "充值",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/recharge/serviceAgreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "服务协议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/recharge/PayRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "充值记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/read/read",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "阅读",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/read/readList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "最近阅读",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	  "color": "#999999",
+	  "selectedColor": "#07c73b",
+	  "backgroundColor": "#fff",
+	  "position": "bottom",
+	  "borderStyle": "black",
+	  "list": [
+	    // {
+	    //   "pagePath": "pages/bookshelf/bookshelf",
+	    //   "text": "书架",
+	    //   "iconPath": "static/icons/h-shujia.png",
+	    //   "selectedIconPath": "static/icons/l-shujia.png"
+	    // },
+	    {
+	      "pagePath": "pages/index/index",
+	      "text": "热门",
+	      "iconPath": "static/icons/h-home.png",
+	      "selectedIconPath": "static/icons/l-home.png"
+	    },
+			// {
+			//   "pagePath": "pages/sift/sift",
+			//   "text": "精选",
+			//   "iconPath": "static/icons/h-jingxuan.png",
+			//   "selectedIconPath": "static/icons/l-jingxuan.png"
+			// },
+	    {
+	      "pagePath": "pages/user/user",
+	      "text": "我的",
+	      "iconPath": "static/icons/h-user.png",
+	      "selectedIconPath": "static/icons/l-user.png"
+	    }
+	  ]
+	},
+	"uniIdRouter": {}
+}

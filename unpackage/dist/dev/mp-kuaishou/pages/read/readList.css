@@ -1,0 +1,48 @@
+.read-list.data-v-44a99cf8 {
+  width: 100%;
+}
+.read-list .item-book.data-v-44a99cf8 {
+  display: flex;
+  align-items: center;
+  margin: 0 30rpx;
+  padding: 40rpx 0;
+  border-bottom: 1rpx solid #e8e6e3;
+}
+.read-list .item-book .read-book.data-v-44a99cf8 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.read-list .item-book .read-book .read-title.data-v-44a99cf8 {
+  display: flex;
+  align-items: center;
+}
+.read-list .item-book .read-book .read-title .read-title_img.data-v-44a99cf8 {
+  width: 50rpx;
+  margin-right: 10rpx;
+}
+.read-list .item-book .read-book .read-title .title.data-v-44a99cf8 {
+  width: 600rpx;
+  line-height: 58rpx;
+  font-size: 36rpx;
+  color: #333;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.read-list .item-book .read-book .read-author.data-v-44a99cf8 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.read-list .item-book .read-book .read-author text.data-v-44a99cf8:nth-of-type(1) {
+  margin-right: 8rpx;
+}
+.read-list .item-book .read-book .read-author text.data-v-44a99cf8 {
+  line-height: 40rpx;
+  color: #333;
+  font-size: 30rpx;
+}

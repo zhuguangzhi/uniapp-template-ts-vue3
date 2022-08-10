@@ -1,0 +1,40 @@
+.book.data-v-95d93a74 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f5eee9;
+}
+.book.data-v-95d93a74 ::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 10px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 10px;
+}
+.read-content.data-v-95d93a74 {
+  padding: 0 30rpx 80rpx 30rpx;
+}
+.read-content .erview.data-v-95d93a74 {
+  color: #333;
+  line-height: 1.5;
+  text-indent: 2em;
+  font-size: 36rpx;
+  padding: 5rpx 0;
+}
+.read-content .Genuine.data-v-95d93a74 {
+  text-align: center;
+  color: #999;
+  font-size: 30rpx;
+  margin: 40rpx auto;
+}
+.read-content .purchase.data-v-95d93a74 {
+  width: 420rpx;
+  font-size: 34rpx;
+  text-align: center;
+  line-height: 90rpx;
+  background: coral;
+  border-radius: 50rpx;
+  margin: 40rpx auto;
+  color: #fff;
+}

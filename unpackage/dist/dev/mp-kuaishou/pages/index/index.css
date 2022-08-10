@@ -1,0 +1,36 @@
+.other-index {
+  width: 100%;
+  margin-bottom: 15rpx;
+  padding-top: 10rpx;
+}
+.other-index .item_box {
+  overflow: hidden;
+}
+.other-index .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx 20rpx 30rpx;
+  margin-top: 30rpx;
+  border-bottom: 4rpx solid #f1f1f1;
+}
+.other-index .item .item-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 73%;
+}
+.other-index .item .item-left > text {
+  font-size: 30rpx;
+  color: #333;
+}
+.other-index .item .item-left .item-left-bottom {
+  display: flex;
+}
+.other-index .item .item-left .item-left-bottom text {
+  margin-right: 30rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+.other-index .item .item-right > image {
+  width: 150rpx;
+}

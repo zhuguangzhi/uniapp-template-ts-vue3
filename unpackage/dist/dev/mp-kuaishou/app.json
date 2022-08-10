@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/recharge/recharge",
+    "pages/recharge/serviceAgreement",
+    "pages/recharge/PayRecord",
+    "pages/read/read",
+    "pages/read/readList"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#07c73b",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "热门",
+        "iconPath": "static/icons/h-home.png",
+        "selectedIconPath": "static/icons/l-home.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/icons/h-user.png",
+        "selectedIconPath": "static/icons/l-user.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
